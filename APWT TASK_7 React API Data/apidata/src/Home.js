@@ -7,7 +7,7 @@ const Home = () => {
 
     return (
         <div>
-            <h1>hi</h1>
+            <h1>Calling data from api</h1>
 
             <HomeCarditems />
 

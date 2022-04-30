@@ -20,9 +20,9 @@ const HomeCarditems = () => {
             <Card>
                 {
                     foods.map(food => (
-                        <Card style={{ width: '18rem', border: '1px solid black' }} >
+                        <Card style={{ width: '18rem', border: '1px solid black' }}  >
                             {/* <Card.Img variant="top" src={require(food.recipe_image)} /> */}
-                            <Card.Body>
+                            <Card.Body >
                                 <Card.Title>{food.title}</Card.Title>
                                 <Card.Text>
                                     {food.chef_name}<br />
